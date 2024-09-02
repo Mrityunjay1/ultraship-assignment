@@ -38,7 +38,7 @@ const Header = () => {
                 {item.submenu && <FaChevronDown className="inline ml-1" />}
               </a>
               {item.submenu && (
-                <div className="absolute hidden group-hover:block bg-blue-500 p-2 rounded shadow-lg">
+                <div className="absolute hidden group-hover:block bg-slate-200  p-2 rounded shadow-lg">
                   {item.submenu.map((subItem, subIndex) => (
                     <a
                       key={subIndex}
